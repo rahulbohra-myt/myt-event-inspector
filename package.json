@@ -1,0 +1,22 @@
+{
+  "name": "myt-event-inspector",
+  "version": "1.0.0",
+  "description": "Real-time Timeline Event inspector for myyogateacher.com",
+  "author": "Rahul Bohra <rahul.bohra@myyogateacher.com>",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-icons": "node scripts/generate-icons.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.23",
+    "@vitejs/plugin-react": "^4.2.0",
+    "sharp": "^0.34.5",
+    "vite": "^5.0.0"
+  }
+}
